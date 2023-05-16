@@ -1,0 +1,24 @@
+.task-manager-container {
+    padding: 35px;
+    width:100%;
+}
+
+.task-manager-title {
+    font-family: 'Sen', sans-serif;
+    font-weight: 400px;
+    font-size: 26px;
+    line-height: 31.28px;
+    color:black; 
+    margin-bottom: 26px;
+    max-width:1140px;
+    margin:0 auto;
+}
+
+@media screen and (min-width: 768px) {
+   .task-manager-container {
+    padding: 70px;
+   }
+   .task-manager-title {
+    margin-bottom: 53px;
+   }
+}
